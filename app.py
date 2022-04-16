@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # loading the saved model
 model = xgb.Booster()
-model.load_model('C:/Users/NISHU/N_Spyder/Sales_Forecasting/new.json')
+model.load_model('sf.json')
 
 @app.route("/")
 def index():
