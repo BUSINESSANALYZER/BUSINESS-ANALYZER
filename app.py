@@ -30,7 +30,6 @@ def predict():
                   Outlet_Establishment_Year, Outlet_Size, Outlet_Location_Type, Outlet_Type]])
     
     X = X.reshape(1, -1)
-    prediction = " "
     prediction = model.predict(X)
     
    
